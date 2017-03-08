@@ -47,7 +47,10 @@ public class MainApp {
             log.error(ex);
         }
         log.info("version: " + version);
-        if (version != null) {
+        if (version != null) {  
+            
+            
+            
 
             ECKey key = new ECKey();
 

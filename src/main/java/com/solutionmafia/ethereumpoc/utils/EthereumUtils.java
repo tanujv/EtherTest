@@ -16,6 +16,8 @@ import org.spongycastle.util.encoders.Hex;
  */
 public class EthereumUtils {
 
+    
+    
     public static MyModel createAccount(String password) {
         byte[] passwordBytes = HashUtil.sha3(password.getBytes());
         ECKey key = ECKey.fromPrivate(passwordBytes);

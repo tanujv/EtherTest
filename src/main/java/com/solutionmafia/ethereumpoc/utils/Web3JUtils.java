@@ -14,6 +14,8 @@ import org.web3j.protocol.core.methods.response.Web3ClientVersion;
  */
 public class Web3JUtils {
 
+    
+    
     public static String getVersion(org.web3j.protocol.Web3j web3) throws InterruptedException,
             ExecutionException {
         Web3ClientVersion web3ClientVersion = web3.web3ClientVersion().sendAsync().get();
