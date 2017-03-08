@@ -1,102 +1,18 @@
 Welcome to Ethereum POC!
-CookieSpec selected: default
-Auth cache not set in the context
-Connection request: [route: {}->http://localhost:8545][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-Connection leased: [id: 0][route: {}->http://localhost:8545][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-Opening connection {}->http://localhost:8545
-Connecting to localhost/127.0.0.1:8545
-Connect to localhost/127.0.0.1:8545 timed out. Connection will be retried using another IP address
-Connecting to localhost/0:0:0:0:0:0:0:1:8545
-http-outgoing-0: Shutdown connection
-Connection discarded
-Connection released: [id: 0][route: {}->http://localhost:8545][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-java.util.concurrent.ExecutionException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8545 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
-version: null
-Welcome to Ethereum POC!
-CookieSpec selected: default
-Auth cache not set in the context
-Connection request: [route: {}->http://localhost:8545][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-Connection leased: [id: 0][route: {}->http://localhost:8545][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-Opening connection {}->http://localhost:8545
-Connecting to localhost/127.0.0.1:8545
-Connection established 127.0.0.1:56048<->127.0.0.1:8545
-Executing request POST / HTTP/1.1
-Target auth state: UNCHALLENGED
-Proxy auth state: UNCHALLENGED
-http-outgoing-0 >> POST / HTTP/1.1
-http-outgoing-0 >> Content-Type: application/json; charset=UTF-8
-http-outgoing-0 >> Content-Length: 66
-http-outgoing-0 >> Host: localhost:8545
-http-outgoing-0 >> Connection: Keep-Alive
-http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_60)
-http-outgoing-0 >> Accept-Encoding: gzip,deflate
-http-outgoing-0 >> "POST / HTTP/1.1[\r][\n]"
-http-outgoing-0 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
-http-outgoing-0 >> "Content-Length: 66[\r][\n]"
-http-outgoing-0 >> "Host: localhost:8545[\r][\n]"
-http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
-http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_60)[\r][\n]"
-http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-http-outgoing-0 >> "[\r][\n]"
-http-outgoing-0 >> "{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}"
-http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
-http-outgoing-0 << "Content-Type: application/json[\r][\n]"
-http-outgoing-0 << "Vary: Origin[\r][\n]"
-http-outgoing-0 << "Date: Wed, 08 Mar 2017 07:34:45 GMT[\r][\n]"
-http-outgoing-0 << "Content-Length: 71[\r][\n]"
-http-outgoing-0 << "[\r][\n]"
-http-outgoing-0 << "{"jsonrpc":"2.0","id":1,"result":"Geth/v1.5.9-stable/windows/go1.7.4"}[\n]"
-http-outgoing-0 << HTTP/1.1 200 OK
-http-outgoing-0 << Content-Type: application/json
-http-outgoing-0 << Vary: Origin
-http-outgoing-0 << Date: Wed, 08 Mar 2017 07:34:45 GMT
-http-outgoing-0 << Content-Length: 71
-Connection can be kept alive indefinitely
-Connection [id: 0][route: {}->http://localhost:8545] can be kept alive indefinitely
-Connection released: [id: 0][route: {}->http://localhost:8545][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
 version: Geth/v1.5.9-stable/windows/go1.7.4
+privateKey: 18963660849671936674011266718908464979358965344150904257154425852878878803237
+publicKey: 5340378659552015753527625988344484150226050638852259499959722734079332161618332117528790799490475264831256387678129838012253501229233884429752896053263283
 Welcome to Ethereum POC!
-CookieSpec selected: default
-Auth cache not set in the context
-Connection request: [route: {}->http://localhost:8545][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-Connection leased: [id: 0][route: {}->http://localhost:8545][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-Opening connection {}->http://localhost:8545
-Connecting to localhost/127.0.0.1:8545
-Connection established 127.0.0.1:56099<->127.0.0.1:8545
-Executing request POST / HTTP/1.1
-Target auth state: UNCHALLENGED
-Proxy auth state: UNCHALLENGED
-http-outgoing-0 >> POST / HTTP/1.1
-http-outgoing-0 >> Content-Type: application/json; charset=UTF-8
-http-outgoing-0 >> Content-Length: 66
-http-outgoing-0 >> Host: localhost:8545
-http-outgoing-0 >> Connection: Keep-Alive
-http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_60)
-http-outgoing-0 >> Accept-Encoding: gzip,deflate
-http-outgoing-0 >> "POST / HTTP/1.1[\r][\n]"
-http-outgoing-0 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
-http-outgoing-0 >> "Content-Length: 66[\r][\n]"
-http-outgoing-0 >> "Host: localhost:8545[\r][\n]"
-http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
-http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_60)[\r][\n]"
-http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-http-outgoing-0 >> "[\r][\n]"
-http-outgoing-0 >> "{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}"
-http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
-http-outgoing-0 << "Content-Type: application/json[\r][\n]"
-http-outgoing-0 << "Vary: Origin[\r][\n]"
-http-outgoing-0 << "Date: Wed, 08 Mar 2017 07:36:58 GMT[\r][\n]"
-http-outgoing-0 << "Content-Length: 71[\r][\n]"
-http-outgoing-0 << "[\r][\n]"
-http-outgoing-0 << "{"jsonrpc":"2.0","id":1,"result":"Geth/v1.5.9-stable/windows/go1.7.4"}[\n]"
-http-outgoing-0 << HTTP/1.1 200 OK
-http-outgoing-0 << Content-Type: application/json
-http-outgoing-0 << Vary: Origin
-http-outgoing-0 << Date: Wed, 08 Mar 2017 07:36:58 GMT
-http-outgoing-0 << Content-Length: 71
-Connection can be kept alive indefinitely
-Connection [id: 0][route: {}->http://localhost:8545] can be kept alive indefinitely
-Connection released: [id: 0][route: {}->http://localhost:8545][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
 version: Geth/v1.5.9-stable/windows/go1.7.4
-privateKey: 79860650447147647852365120402431507007817643338840243280250011165407023117529
-publicKey: 8389117131612038749026115712743093201903823101338405260789389736099063292183732240871847142484052030757807238490392288265214640674608676658053467069017047
+privateKey: 15545427254674445287708507795066174516705221344919966617627990788835338477089
+publicKey: 4666085857463056495954591141831803998618448447770549510562509603595463036237195791633499988433398384110977605904701287712767555200469598197559354662732657
+Welcome to Ethereum POC!
+version: Geth/v1.5.9-stable/windows/go1.7.4
+privateKey: 21271094622029416748487159998571356289580641692800398705284601107127245391097
+publicKey: 4673984510265011941252579527717195353045354814323329414139218092882021688067493910990377498730413680513185983301325175441980794381950527778185241733244993
+Welcome to Ethereum POC!
+version: Geth/v1.5.9-stable/windows/go1.7.4
+privateKey: 18706883939079959913031643141476906688635810654605158402389871514531988323024
+publicKey: 7135926130265897560250689099467497479356855283101425426489541159359636140408682530865063951644438740323436210494455575602631937773817234896916683165400526
+Welcome to Ethereum POC!
+version: Geth/v1.5.9-stable/windows/go1.7.4
